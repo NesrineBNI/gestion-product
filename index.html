@@ -33,10 +33,9 @@
                     <input type="date" id="date" class="form-control" placeholder="Entrer la Date de Production">
                 </div>
                 <div class="col-10 mb-3">
-                    <label>Type de produits</label>
+                    <label for="sel">Type de produits</label>
                     <select class="form-select mb-3" id="sel">
-                        <!-- <option selected>Type</option> -->
-                        <option></option>
+                        <option value="">Type de produits</option>
                         <option >hygiène et toilette</option>
                         <option >soins esthétiques</option>
                         <option >produits solaires</option>
@@ -49,9 +48,9 @@
                 <div class="col-10 mb-3">
                     <label class="label col-md-2 control-label">Promotion : </label>
                     <input type="radio" value="oui" id="oui"  name="promo">
-                    <small>oui</small>
+                    <label for="oui">oui</label>
                     <input type="radio" value="non" id="non" name="promo">
-                    <small>non</small>
+                    <label for="non">non</label>
                 </div>
                 <div class="col-10">
                     <input type="submit" class="btn btn-success add-btn" value="submit">
